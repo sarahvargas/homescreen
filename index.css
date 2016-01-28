@@ -14,15 +14,21 @@ header {
 #content {
     margin: 0 auto;
     min-width: 300px;
-    max-width: 900px;
+    max-width: 600px;
     padding: 10px;
     background-color: #ffbbbb;
     overflow: hidden;
 }
 
+#bottom_button {
+    min-width: 300px;
+    max-width: 600px;
+    background-color: #ffff88;
+}
+
 #today {
     height: 40vh;
-    width: 40vh;
+    width: 100%;
     background-color: #bbffbb;
     margin: 0 auto;
 }
@@ -30,13 +36,13 @@ header {
 #tomorrow {
     float: left;
     height: 40vh;
-    width: 40vh;
+    width: 50%;
     background-color: #ff7777;
 }
 
 #progress {
     float: right;
     height: 40vh;
-    width: 40vh;
+    width: 50%;
     background-color: #77ff77;
 }
