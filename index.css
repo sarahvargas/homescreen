@@ -1,0 +1,42 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+    width: 100%;
+    height: 10vh;
+    background-color: #bbbbff;
+    text-align: center;
+    color: #000000;
+}
+
+#content {
+    margin: 0 auto;
+    min-width: 300px;
+    max-width: 900px;
+    padding: 10px;
+    background-color: #ffbbbb;
+    overflow: hidden;
+}
+
+#today {
+    height: 40vh;
+    width: 40vh;
+    background-color: #bbffbb;
+    margin: 0 auto;
+}
+
+#tomorrow {
+    float: left;
+    height: 40vh;
+    width: 40vh;
+    background-color: #ff7777;
+}
+
+#progress {
+    float: right;
+    height: 40vh;
+    width: 40vh;
+    background-color: #77ff77;
+}
