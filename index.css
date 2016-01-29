@@ -17,16 +17,42 @@ header {
     color: #000000;
 }
 
+#header a {
+    display: block;
+    float: right;
+    height: 8vh;
+    margin: 1vh 0 1vh 0;
+}
+
 #content {
     margin: 0 auto;
     min-width: 300px;
     max-width: 600px;
-    padding: 0 10px 0 10px;
     height: 100vh;
-    background-color: #ffbbbb;
+    background-color: #ffffff;
     -webkit-box-shadow: 0px 0px 100px 0px rgba(0,0,0,0.3);
     -moz-box-shadow: 0px 0px 100px 0px rgba(0,0,0,0.3);
     box-shadow: 0px 0px 100px 0px rgba(0,0,0,0.3);
+}
+
+.button {
+    display: block;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: #ddddff;
+}
+
+#content img {
+    display: block;
+    margin: 0 auto 0;
+    height: 60%;
+}
+
+#content h1 {
+    margin: 20px 0 0 0;
+    text-align: center;
 }
 
 #bottom_button {
@@ -38,7 +64,6 @@ header {
 #today {
     height: 40vh;
     width: 100%;
-    background-color: #bbffbb;
     margin: 0 auto;
 }
 
@@ -46,12 +71,10 @@ header {
     float: left;
     height: 40vh;
     width: 50%;
-    background-color: #ff7777;
 }
 
 #progress {
     float: right;
     height: 40vh;
     width: 50%;
-    background-color: #77ff77;
 }
