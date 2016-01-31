@@ -4,77 +4,84 @@
 }
 
 body {
-    background-color: #ffaa44;
-    padding: 0 10px;
+    background-color: #87a1c6;
+    padding: 2vh;
+    font-family: "wf_SegoeUILight","wf_SegoeUI","Segoe UI Light","Segoe WP Light","Segoe UI","Segoe","Segoe WP","Tahoma","Verdana","Arial","sans-serif";
 }
 
 header {
     width: 100%;
     height: 10vh;
-    margin: 0 0 5vh 0;
-    background-color: #bbbbff;
+    margin: 0 0 0 0;
+    background-color: #233e83;
     text-align: center;
     color: #000000;
+    border-radius: 2vh 2vh 0 0;
 }
 
-#header a {
+header a {
     display: block;
-    float: right;
     height: 8vh;
-    margin: 1vh 0 1vh 0;
+    width: 16vh;
+    background-color: #87a1c6;
+    margin: 1vh 5vh 1vh 5vh;
+    border-radius: 2vh;
+}
+
+header img {
+    display: block;
+    margin: 0 auto 0;
+}
+
+#profile {
+    float: right;
+}
+
+#settings {
+    float: left;
 }
 
 #content {
     margin: 0 auto;
-    min-width: 300px;
-    max-width: 600px;
-    height: 100vh;
+    min-width: 500px;
+    max-width: 900px;
+    height: 96vh;
     background-color: #ffffff;
-    -webkit-box-shadow: 0px 0px 100px 0px rgba(0,0,0,0.3);
-    -moz-box-shadow: 0px 0px 100px 0px rgba(0,0,0,0.3);
-    box-shadow: 0px 0px 100px 0px rgba(0,0,0,0.3);
-}
-
-.button {
-    display: block;
-    text-decoration: none;
-}
-
-.button:hover {
-    background-color: #ddddff;
+    border-radius: 2vh;
 }
 
 #content img {
     display: block;
-    margin: 0 auto 0;
+    margin: 10% auto 0;
     height: 60%;
 }
 
 #content h1 {
     margin: 20px 0 0 0;
     text-align: center;
+    font-size: 2em;
 }
 
-#bottom_button {
-    min-width: 300px;
-    max-width: 600px;
-    background-color: #ffff88;
-}
-
-#today {
-    height: 40vh;
+#pane {
+    height: 76vh;
     width: 100%;
-    margin: 0 auto;
+    background-color: #ffffff; 
 }
 
-#tomorrow {
+#pane a {
     float: left;
-    height: 40vh;
     width: 50%;
+    height: 38vh;
+    display: block;
+    text-decoration: none;
 }
 
-#progress {
-    float: right;
-    height: 40vh;
-    width: 50%;
+#pane a:hover {
+    background-color: #00ffff;
+}
+
+#footer {
+    height: 10vh;
+    width: 100%;
+    border-radius: 0 0 2vh 2vh;
 }
