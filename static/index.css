@@ -22,9 +22,9 @@ header {
 header a {
     display: block;
     height: 8vh;
-    width: 16vh;
+    width: 8vh;
     background-color: #87a1c6;
-    margin: 1vh 5vh 1vh 5vh;
+    margin: 1vh 2vh 1vh 2vh;
     border-radius: 2vh;
 }
 
