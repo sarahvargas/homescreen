@@ -47,7 +47,7 @@ header img {
 }
 
 #homebutton {
-    margin: 0 auto;
+    margin: 2vh auto;
     display: block;
     height: 8vh;
     width: 24vh;
@@ -84,7 +84,7 @@ header img {
 }
 
 #content h2 {
-    margin: 20px 0 0 0;
+    margin: 4vh 0 0 0;
     text-align: center;
     font-size: 1.8em;
 }
@@ -104,6 +104,13 @@ header img {
     height: 76vh;
     width: 100%;
     background-color: #ffffff; 
+}
+
+#goals {
+    text-align: center;
+    margin: 4vh auto;
+    width: 80%;
+    font-size: 3em;
 }
 
 .button {
