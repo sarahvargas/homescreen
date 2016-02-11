@@ -1,0 +1,35 @@
+{
+	"goals": [
+		{
+			"goal": "Finish CSE 170 Project",
+			"category": "Schoolwork",
+			"completed": false			
+		},
+        {
+			"goal": "Go for a run",
+			"category": "Exercise",
+			"completed": false			
+		},
+        {
+			"goal": "Call Mom",
+			"category": "Family",
+			"completed": true			
+		},
+        {
+			"goal": "E-mail advisor",
+			"category": "Schoolwork",
+			"completed": true
+		},
+        {
+			"goal": "Study for Chinese Test",
+			"category": "Schoolwork",
+			"completed": true
+		},
+        {
+			"goal": "Write 1 page of Essay",
+			"category": "Schoolwork",
+			"completed": false
+		}
+		
+	]
+}
